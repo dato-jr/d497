@@ -1,8 +1,17 @@
-nav {
+body {
     background-color: #fff;
-    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1 {
+    justify-content: center;
+    display: flex;
+}
+nav {
+    background-color: #90E4C1;
+    padding: 1em 0;
     border-bottom: 1px solid #e7e7e7;
-    justify-content: space-between;
+    justify-content: center;
+    display: flex;
 }
 ul {
     list-style-type: none;
@@ -11,10 +20,23 @@ ul {
     display: flex;
 }
 
-ul li a {
+nav ul li a {
+    color: #fff;
     text-decoration: none;
+    margin: 1em 1em 1em 1em;
 }
 
 ul li a:hover {
-    color: #fff;
+    color: #4169e1;
+}
+
+.faq-list {
+    display: block;
+    margin: 1em 0 0 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.faq-list li {
+    margin: 1.5em 0;
 }
