@@ -6,6 +6,10 @@ h1 {
     justify-content: center;
     display: flex;
 }
+
+h2 {
+    text-align: center;
+}
 nav {
     background-color: #90E4C1;
     padding: 1em 0;
@@ -23,7 +27,7 @@ ul {
 nav ul li a {
     color: #fff;
     text-decoration: none;
-    margin: 1em 1em 1em 1em;
+    margin: .75em;
 }
 
 ul li a:hover {
@@ -39,4 +43,33 @@ ul li a:hover {
 
 .faq-list li {
     margin: 1.5em 0;
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+
+img {
+    margin:1em;
+    height: 45%;
+    width: 45%;
+    padding: 1em 0;
+    vertical-align: middle;
+}
+
+#footer_link {
+    display: flex;
+    justify-content: center;
+    color: #90E4C1;
+}
+
+#footer_link:hover {
+    color: #4169e1;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }

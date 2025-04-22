@@ -1,0 +1,4 @@
+1. Include a hyperlink to Transportation page leading to more information on where to get on public transportation.
+2. Include an image of the island with bus/walk routes, and trails to take.
+3. Include a chat bot for a cleaner FAQ page.
+4. 
