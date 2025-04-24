@@ -46,3 +46,6 @@ https://www.expedia.com/Things-To-Do-In-Tahiti.d180103.Travel-Guide-Activities
 
 * MDN
 https://developer.mozilla.org/en-US/
+
+* Local Bus Times
+https://teretahiti.pf/fr/nos-horaires
