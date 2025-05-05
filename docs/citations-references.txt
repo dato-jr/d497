@@ -49,3 +49,9 @@ https://developer.mozilla.org/en-US/
 
 * Local Bus Times
 https://teretahiti.pf/fr/nos-horaires
+
+* FAQ image of island
+https://www.tahitilegends.com/images/territories/tahiti.jpg
+
+* Assistance with slideshow
+https://www.w3schools.com/howto/howto_js_slideshow.asp

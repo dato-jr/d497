@@ -1,53 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Entertainment</title>
     <link rel="stylesheet" href="./navbar.css">
+    <link rel="stylesheet" href="./styles.css">
+
 </head>
 <nav>
-        <ul>
-            <li> <a href="transportation.html">Transportation</a> </li>
-            <li> <a href="entertainment.html">Entertainment</a> </li>
-            <li> <a href="faq.html">FAQ</a> </li>
-            <li> <a href="grocery-stores.html">Grocery Stores</a> </li>
-            <li> <a href="lodging.html">Lodging</a> </li>
-            <li> <a href="restaurants.html">Restaurants</a> </li>
-            <li> <a href="index.html">Sightseeing</a> </li>
-        </ul>
+    <ul>
+        <li> <a href="transportation.html">Transportation</a> </li>
+        <li> <a href="entertainment.html">Entertainment</a> </li>
+        <li> <a href="faq.html">FAQ</a> </li>
+        <li> <a href="grocery-stores.html">Grocery Stores</a> </li>
+        <li> <a href="lodging.html">Lodging</a> </li>
+        <li> <a href="restaurants.html">Restaurants</a> </li>
+        <li> <a href="index.html">Sightseeing</a> </li>
+    </ul>
 </nav>
+
 <body>
-<h1>Entertainment</h1>
-<p> Most people visit Taniti to enjoy the beaches, explore the rainforest, and to visit the 
-volcano. However, there are other things to do, including visiting a local history museum, 
-going on chartered fishing tours, snorkeling, zip-lining in the rainforest, visiting several 
-pubs, including a microbrewery, dancing at a new dance club, seeing a movie, taking helicopter 
-rides, playing at an arcade, visiting art galleries, and bowling. Also, a nine-hole golf course 
-should be operational by next year. Many of these activities are located in Merriton 
-Landing, which is a rapidly developing area on the north side of Yellow Leaf Bay. 
-</p>
-<div style="display: flex; align-items: center; align-content: center;">
-    <figure>
-        <img id="beach" src="./pictures/beach.webp" alt="Beach" class="center" style="width: 50%;"></img>
-    <figcaption class="center">Beach</figcaption>
-    </figure>
-    <figure>
-        <img id="rainforest" src="./pictures/rainforest.jpg" alt="Rainforest" class="center" style="width: 100%;"></img>
-        <figcaption class="center">Rainforest</figcaption>
-        
-    </figure>
-</div>
-<div style="display: flex; align-items: center;">
-    <figure>
-        <img id="volcano" src="./pictures/volcano.jpeg" alt="Volcano" class="center" style="width: 60%;"></img>
-        <figcaption class="center">Volcano</figcaption>
-        
-    </figure>
-    <figure>
-        <img id="snorkeling" src="./pictures/snorkeling.jpg" alt="Snorkeling" class="center" style="width: 75%;"></img>
-        <figcaption class="center">Snorkeling</figcaption>
-    </figure>
-</div>
+    <h1>Entertainment</h1>
+    <div class="description">
+        <ul>
+            <li>
+                Most people visit Taniti to enjoy the beaches, explore the rainforest, and to visit the volcano.
+            </li>
+            <li>
+                However, there are other things to do, including visiting a local history museum,
+                going on chartered fishing tours, snorkeling, zip-lining in the rainforest, visiting several
+                pubs, including a microbrewery, dancing at a new dance club, seeing a movie, taking helicopter
+                rides, playing at an arcade, visiting art galleries, and bowling.
+            </li>
+            <li>
+                Also, a nine-hole golf course
+                should be operational by next year.
+            </li>
+            <li>
+                Many of these activities are located in Merriton
+                Landing, which is a rapidly developing area on the north side of Yellow Leaf Bay.
+            </li>
+        </ul>
+    </div>
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <img src="./pictures/beach.webp" style="width:100%">
+          <div class="text">Beach</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <img src="./pictures/rainforest.jpg" style="width:100%">
+          <div class="text">Rainforest</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <img src="./pictures/volcano.jpeg" style="width:100%">
+          <div class="text">Volcano</div>
+        </div>
+
+      <div class="mySlides fade">
+          <div class="numbertext">4 / 4</div>
+          <img src="./pictures/snorkeling.jpg" style="width:100%">
+          <div class="text">Snorkeling</div>
+        </div>
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+
+      <script src="./slideshow.js"></script>
 </body>
+
 </html>

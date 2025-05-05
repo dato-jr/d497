@@ -20,7 +20,7 @@ nav {
     display: flex;
 }
 
-ul {
+nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -35,18 +35,6 @@ nav ul li a {
 
 ul li a:hover {
     color: #4169e1;
-}
-
-.faq-list {
-    display: block;
-    margin: 1em 0 0 1em;
-    padding-left: 1em;
-    padding-right: 1em;
-}
-
-.faq-list li {
-    margin: 1.5em 0;
-    text-align: center;
 }
 
 p {
@@ -71,14 +59,9 @@ img {
 
 .center {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 100%);
     position: relative;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-}
-
-#hotels {
-    width: 75%;
-    height: 75%;
+    width: 60%;
 }
